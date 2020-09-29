@@ -12,7 +12,7 @@ on:
 
 jobs:
   build:
-    name: Update-gist
+    name: update-gist
     runs-on: ubuntu-latest
     env:
       WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
